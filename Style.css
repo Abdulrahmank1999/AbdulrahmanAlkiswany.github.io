@@ -11,7 +11,7 @@ html {
 .nav .lists ul li{
 float:left;
 list-style-type: none;
-margin-left:100px;
+margin-left:80px;
 }
 
 .nav .lists ul li a{
@@ -204,7 +204,7 @@ color: white;
 }
 
 .contact-me{
-font-size: 50px;
+font-size: 30px;
 text-align: left;
 color:black;
 }
@@ -267,5 +267,129 @@ color:black;
         transform: translatex(0);
     }
 }
+
+@media only screen and (max-width: 1252px) {
+    .nav .lists ul li{
+        float:left;
+        list-style-type: none;
+        margin-left:50px;
+        }
+  }
+
+  @media only screen and (max-width: 1102px) {
+    .nav .lists ul li{
+        float:left;
+        list-style-type: none;
+        margin-left:30px;
+        }
+
+        .about-me-paragraph img{
+            width:90%;
+            height:100%;
+            margin:30px;
+            border-radius:10px;
+        }
+
+        .contact-me{
+            font-size: 20px;
+            text-align: left;
+            color:black;
+            }
+  }
+
+  @media only screen and (max-width: 1001px) {
+    .nav .lists ul li{
+        margin:10px;
+        display:none;
+        list-style-type: none;
+        margin-left:10px;
+        }
+
+        .skills-paragraph{
+            width:10px;
+            border-radius: 50%;
+            color: rgb(56, 106, 126);
+            padding:70px;
+            font-weight: bold;
+            display: block;
+            text-align: center;
+            margin-left: 180px;
+        
+        }
+
+        .grid-container{
+            display: block;
+        }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .nav .lists ul li{
+        margin:10px;
+        display:none;
+        list-style-type: none;
+        margin-left:10px;
+        }
+
+        .about-me-paragraph img{
+            width:90%;
+            height:100px;
+            margin:30px;
+            border-radius:10px;
+        }
+
+        .links-paragraph{
+            margin: 20px;
+            background-color:#a9a9a9;
+            border-radius: 20px;
+            padding:50px;
+            width: 80px;
+        }
+
+        .read-button{
+            display: block;
+            width:300px;
+            height:100px;
+            border-radius: 50px;
+            margin-left: 100px;
+            background-color:rgb(78, 106, 119);
+            border:1px dotted black;
+            font-size: 40px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            margin-top:25px;
+            color:white; 
+        
+        }
+
+        .skills-paragraph{
+            width:10px;
+            border-radius: 50%;
+            color: rgb(56, 106, 126);
+            padding:70px;
+            font-weight: bold;
+            display: block;
+            text-align: center;
+            margin-left: 0;
+        
+        }
+
+        .grid-container{
+            display: block;
+        }
+
+        .contact-me{
+            font-size: 10px;
+            text-align: left;
+            color:black;
+            }
+
+        #myVideo{
+            position: absolute;
+            top: 0;
+            z-index:-1;
+            width:100%;
+            height: 600px;
+            opacity: .6;
+        }
+  }
 
 
